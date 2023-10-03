@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.FruitDetailed"
+             Title="FruitDetailed">
+    <Grid RovDefinitions="auto,auto,*" Padding="50" RovSpacing="40">
+        <Image Gird.Rov="0" x:Name="showImage"/>
+        <Label Gird.Rov="1" x:Name="showName" FontSize="24"/>
+        <Label Gird.Rov="2" x:Name="showDescription" FontSize="18"/>
+    </Grid>
+</ContentPage>
